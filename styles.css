@@ -1,0 +1,47 @@
+body {  
+    font-family: 'IconFont', sans-serif; /* 使用自定义字体 */  
+    margin: 0;  
+    padding: 0;  
+    /* 根据需要添加其他样式 */  
+}  
+  
+.package-container {  
+    padding: 16px;  
+    /* 根据需要添加其他样式，比如背景色、字体大小等 */  
+}  
+  
+.package {  
+    margin-bottom: 16px; /* 每个快递信息之间的间距 */  
+    /* 添加更多样式以美化布局 */  
+}  
+  
+.package-header {  
+    display: flex;  
+    justify-content: space-between;  
+    align-items: center;  
+    /* 添加更多样式 */  
+}  
+  
+.package-number,  
+.package-status {  
+    /* 添加样式以区分快递编号和状态 */  
+}  
+  
+.package-content {  
+    /* 添加样式以美化内容部分 */  
+}  
+  
+.package-price {  
+    display: flex;  
+    justify-content: space-between;  
+    align-items: center;  
+    /* 添加样式以美化价格部分 */  
+}  
+  
+.after-sale {  
+    /* 添加样式以美化售后链接 */  
+    text-decoration: none;  
+    color: blue; /* 或者其他颜色 */  
+}  
+  
+/* 根据需要添加更多样式，比如滚动条样式等 */
